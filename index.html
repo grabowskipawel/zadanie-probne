@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+     <meta name="author" content="Hege Refsnes">
+    <meta name="description" content="150 znaków opisu, który pozwoli znaleźć firmę w internecie. Opis pokazywany jest w przeglądarce, słowa z opisu powinny znajdować się w tekscie, wyróżnione w jakiś sposób, nagłowkami lub znaczniekiem strong">
+    <!--script -->
+    
+    <script src="js/jquery-3.1.1%20(2).js"></script>
+    <script src="js/menu.js"></script>    
+    <script src="js/modal.js"></script>
+    <script src="js/smoothscroll.js"></script>
+
+
+    <!--style -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/stylenav.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+
+
+    <title>Zadanie próbne</title>
+
+</head>
+
+<body>
+
+    <nav class="cd-stretchy-nav">
+
+        <a class="cd-nav-trigger" href="#0">
+            <span aria-hidden="true"></span>
+            
+        </a>
+
+        <ul>
+
+            <li class="name">FIVE</li>
+            <hr>
+            <li><a href="#services"><span>SERVICES</span></a>
+            </li>
+            <li><a href="#portfolio"><span>PORTFOLIO</span></a>
+            </li>
+            <li><a href="#about"><span>ABOUT</span></a>
+            </li>
+            <li><a href="#team"><span>TEAM</span></a>
+            </li>
+            <li><a href="#contact"><span>CONTACT</span></a>
+            </li>
+
+            <!-- other list items here -->
+        </ul>
+
+        <span aria-hidden="true" class="stretchy-nav-bg"></span>
+    </nav>
+    <header>
+
+        <div class="headerWrapper">
+            <div class="hello">
+                <p>Welcome to our website
+                    <br><b>WE DESIGN.</b>
+                </p>
+            </div>
+            <div class="chevron">
+
+                <a href="#services"><span class="fa fa-chevron-down" aria-hidden="true"></span><span class="fa fa-chevron-down" aria-hidden="true"></span></a>
+
+            </div>
+        </div>
+
+    </header>
+    <section id="services" class="sections">
+       <div class="headers">
+                <h2>SERVICES</h2> </div>
+        <div class="servicesWrapper">
+            
+            <div class="servicesContent">
+                <div class="service">
+                    <div class="rwd circle">
+                        <i class="fa fa-tablet fa-4x icon" aria-hidden="true"></i>
+                    </div>
+                    <h4>Resoponsive Desing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum consequatur sed.</p>
+                </div>
+
+                <div class="psdToHtml">
+                    <div class="service">
+                        <div class="rwd circle">
+                            <i class="fa fa-html5  icon" aria-hidden="true"></i>
+                        </div>
+                        <h4>PSD to HTML</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum consequatur sed.</p>
+                    </div>
+
+                </div>
+                <div class="retina">
+                    <div class="service">
+                        <div class="rwd circle">
+                            <i class="fa fa-desktop icon" aria-hidden="true"></i>
+                        </div>
+                        <h4>Retina Ready</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum consequatur sed.</p>
+                    </div>
+                </div>
+                <div class="cms">
+                    <div class="service">
+                        <div class="rwd circle">
+                            <i class="fa fa-cogs icon" aria-hidden="true"></i>
+                        </div>
+                        <h4>CMS integration</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum consequatur sed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="portfolio" class="sections">
+        <div class="headers">
+            <h2>PORTFOLIO</h2>
+        </div>
+        <div class="portfolioWrapper">
+            <div class="portfolio"><img src="img/portfolio/portfolio1.png" alt="project">
+                <div class="describe">
+                    <h4>Typi non habent</h4>
+                    <i><a href="#preview" rel="modal:open">Lorem see more</a></i>
+                    <div id="preview">
+                        <img src="img/portfolio/portfolio1-preview.png" alt="projectpreview">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="portfolio"><img src="img/portfolio/portfolio2.png" alt="project">
+                <div class="describe">
+                    <h4>Typi non habent</h4>
+                    <i><a href="#preview" rel="modal:open">Lorem see more</a></i>
+                    <div id="preview">
+                        <img src="img/portfolio/portfolio2-preview.png" alt="projectpreview">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio"><img src="img/portfolio/portfolio3.png" alt="project">
+                <div class="describe">
+                    <h4>Typi non habent</h4>
+                    <i><a href="#preview" rel="modal:open">Lorem see more</a></i>
+                    <div id="preview">
+                        <img src="img/portfolio/portfolio3-preview.png" alt="projectpreview">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio"><img src="img/portfolio/portfolio4.png" alt="project">
+                <div class="describe">
+                    <h4>Typi non habent</h4>
+                    <i><a href="#preview" rel="modal:open">Lorem see more</a></i>
+                    <div id="preview">
+                        <img src="img/portfolio/portfolio4-preview.png" alt="projectpreview">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio"><img src="img/portfolio/portfolio5.png" alt="project">
+                <div class="describe">
+                    <h4>Typi non habent</h4>
+                    <i><a href="#preview" rel="modal:open">Lorem see more</a></i>
+                    <div id="preview">
+                        <img src="img/portfolio/portfolio5-preview.png" alt="projectpreview">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio"><img src="img/portfolio/portfolio6.png" alt="project">
+                <div class="describe">
+                    <h4>Typi non habent</h4>
+                    <i><a href="#preview" rel="modal:open">Lorem see more</a></i>
+                    <div id="preview">
+                        <img src="img/portfolio/portfolio6-preview.png" alt="projectpreview">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="about" class="sections">
+        <div class="headers">
+            <h2>ABOUT</h2> </div>
+        <div class="aboutWrapper">
+            <div class="we">
+                <h3>WHO WE ARE</h3>
+                <img src="img/about/1.jpg" alt="aboutus">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus saepe ad omnis laborum eum sint.</p>
+            </div>
+            <div class="history">
+                <h3>OUR HISTORY</h3>
+                <h4>2009-2011</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+                <h3>MARCH 2012</h3>
+
+                <p>Lorem ipsum dolor sit amet</p>
+                <h3>DECEMBER 2014</h3>
+
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="whyUs">
+                <h3>WHY CHOSE US?</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetue adiscicing elit</li>
+                    <li>Minima maxime quam achitecto quo</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetue adiscicing elit</li>
+                    <li>Minima maxime quam achitecto</li>
+                    <li>Consectetue adiscicing elit quo</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section id="team" class="sections">
+        <div class="headers">
+            <h2>TEAM</h2> </div>
+        <div class="personwrapper">
+            <div class="person">
+                <img src="img/team/1.jpg" alt="">
+                <p>Jessica</p>
+                <p>Web Designer</p>
+                <div class="socials">
+                    <a href="https://twitter.com/?lang=pl" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+
+                </div>
+            </div>
+            <div class="person">
+                <img src="img/team/3523_big.jpg" alt="">
+                <p>Larry</p>
+                <p>Graphic Designer</p>
+                <div class="socials">
+                    <a href="https://twitter.com/?lang=pl" target="_blank"> <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+
+                </div>
+            </div>
+            <div class="person">
+                <img src="img/team/3.jpg" alt="">
+                <p>Diana</p>
+                <p>Lead Developer</p>
+                <div class="socials">
+                    <a href="https://twitter.com/?lang=pl" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i> </a>
+                    <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+
+                </div>
+            </div>
+            <div class="person">
+                <img src="img/team/4.jpg" alt="">
+                <p>Michael</p>
+                <p>Web Developer</p>
+                <div class="socials">
+                    <a href="https://twitter.com/?lang=pl" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolore eum ex nobis soluta quidem rerum at, dolorem ipsam cum illo aut aliquid nisi ea, libero consectetur vitae, sunt odit.</div>
+    </section>
+    <section id="contact" class="sections">
+
+        <div class="headers">
+            <h2>CONTACT</h2> </div>
+        <div class="information">
+            <div class="address"> <i class="fa fa-map-marker" aria-hidden="true"></i> ADDRESS
+                <p>3821 Laoreet quis risus, NY 07209, United States</p>
+            </div>
+
+            <div class="address"><i class="fa fa-envelope-o" aria-hidden="true"></i> EMAIL
+                <p>info@companyname.com</p>
+            </div>
+
+            <div class="address"><i class="fa fa-phone" aria-hidden="true"></i> PHONE
+                <p>+1 800 123 987</p>
+            </div>
+        </div>
+        <p class="additional">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="form">
+            <form action="POST">
+                <div class="inputs">
+                    <input type="text" name="name" placeholder="    Your name*">
+
+                    <input type="email" name="email" placeholder="    Your email*">
+
+                    <input type="phone" name="phone" placeholder="    Your phone*">
+                </div>
+                <div class="message">
+                    <textarea name="message" placeholder=" Your message*" maxlength="500"></textarea>
+                </div>
+
+            </form>
+            <div class="button">
+                <button type="submit">Send Message</button>
+            </div>
+
+        </div>
+    </section>
+ 
+</body>
+
+</html>
